@@ -1,0 +1,129 @@
+body {
+	background: #222;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+/* Navigation Bar */
+#myNavBar{
+	background-color: pink;
+	color: #222;
+	text-transform: uppercase;
+}
+
+.pre-title {
+	color: white;
+	padding-top: 6rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pre-title-text{
+	font-size: 50px;
+	letter-spacing: 15px;
+	font-weight: 100;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pre-title h1 {
+	font-size: 125px;
+	font-weight: 100;
+}
+
+.pre-title .pre-title-line {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 200px;
+    background: pink;
+}
+
+
+/* About */
+#about-img {
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+}
+
+
+/* Services-Packages */
+
+.pricing {
+
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: pink;
+	color: #222;
+
+}
+
+
+.pricing .packages {
+
+	padding: 30px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+	color: #222;
+}
+
+.logo {
+	height:100px;
+	width: 200px;
+}
+
+/* Products */
+.products li {
+	list-style-type: none;
+	opacity: 0.6;
+}
+
+
+/* CONTACT */
+
+.contact {
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: pink;
+}
+
+.contact p {
+	padding-bottom: 80px;
+	color: #737373;
+
+}
+
+.contact h2 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+
+.contact .input-group {
+	margin-bottom: 25px;
+
+}
+
+.contact .form-control {
+	border-radius: 0 !important;
+}
+
+.contact span {
+	border-radius: 0 !important;
+}
+
+.contact .btn {
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #5cb85c;
+	color: #fff;
+}
+
+.contact .btn:hover {
+	background-color: #91cf91!important;
+	color: #fff !important;
+}
