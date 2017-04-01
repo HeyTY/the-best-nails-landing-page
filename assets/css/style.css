@@ -13,37 +13,79 @@ body {
 	text-transform: uppercase;
 }
 
+
+/* Header */
+
+.header {
+	text-transform: uppercase;	
+	margin: 0px auto;
+	width: 100%;
+	font-weight: 100;
+}
+
 .pre-title {
 	color: white;
 	padding-top: 6rem;
 	text-align: center;
-	text-transform: uppercase;
+	display: block;
 }
 
 .pre-title-text{
-	font-size: 50px;
+	font-size: 3.2vw;
 	letter-spacing: 15px;
-	font-weight: 100;
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.pre-title h1 {
-	font-size: 125px;
-	font-weight: 100;
+.header h1 {
+  text-align: center;
+ /* font-size: 36px;*/ /* Some tweener fallback that doesn't look awful */ 
+/*  font-size: 8.7em; */
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 40px;
+  font-weight: 200;
 }
 
-.pre-title h2 {
-	font-size: 35px;
-	font-weight: 100;
+
+@media screen and (min-width: 600px){
+  .header h1 {
+    font-size: 43px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 724px){
+  .header h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 980px){
+  .header h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 1240px){
+  .header h1 {
+    font-size: 135px;
+  }
+}
+
+
+
+.header h2 {
+	font-size: 2.4vw;
 	color: pink;
+	font-weight: 100;
 }
 
 .pre-title .pre-title-line {
     display: inline-block;
     vertical-align: middle;
     height: 1px;
-    width: 200px;
+    width: 10vw;
     background: pink;
 }
 
@@ -64,8 +106,9 @@ body {
 
 #about-img {
 	border-radius: 50%;
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 400px;
+	margin-bottom: 75px;
 }
 
 
